@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
               alignment: Alignment.topRight,
               children: [
                 IconButton(
-                    icon: Icon(
+                    icon: const Icon(
                       Icons.shopping_cart_outlined,
                       color: Colors.white,
                     ),
@@ -134,54 +134,71 @@ class _HomePageState extends State<HomePage> {
                                   const SizedBox(height: 5),
 
                                   ElevatedButton(
-                                      onPressed: () {
-                                        if (memeCartProvider.getMemesIdList!
-                                            .contains(memeId)) {
-                                          // print(
-                                          //     ".....memeid : ............................${memeId}");
-                                          ScaffoldMessenger.of(context)
-                                              .showSnackBar(const SnackBar(
-                                                  duration: Duration(
-                                                      milliseconds: 300),
-                                                  content:
-                                                      Text("Already in cart")));
-                                          //ignore:avoid_print
-                                          print(
-                                              ".............memesIdList duplicate: ${memeCartProvider.getMemesIdList.toString()}");
-                                        } else {
-                                          memeCartProvider.getMemesIdList!
-                                              .add(memeId);
-                                          memeCartProvider.addItem(addCartItem);
-                                          context
-                                              .read<CartCounterProvider>()
-                                              .increment();
-                                          ScaffoldMessenger.of(context)
-                                              .showSnackBar(SnackBar(
-                                            duration: const Duration(
-                                                milliseconds: 800),
-                                            content:
-                                                const Text("Added to Cart"),
-                                            action: SnackBarAction(
-                                                label: "View Cart",
-                                                textColor: Colors.white,
-                                                onPressed: () {
-                                                  Navigator.push(
-                                                      context,
-                                                      MaterialPageRoute(
-                                                          builder: (context) =>
-                                                              const CartPage()));
-                                                }),
-                                          ));
-                                          //ignore:avoid_print
-                                          print(
-                                              ".............memesIdList add: ${memeCartProvider.getMemesIdList.toString()}");
-                                        }
-                                      },
+                                      onPressed: memeCartProvider
+                                              .getMemesIdList!
+                                              .contains(memeId)
+                                          ? () {}
+                                          : () {
+                                              // if (memeCartProvider
+                                              //     .getMemesIdList!
+                                              //     .contains(memeId)) {
+                                              //   // print(
+                                              //   //     ".....memeid : ............................${memeId}");
+                                              //   ScaffoldMessenger.of(context)
+                                              //       .showSnackBar(const SnackBar(
+                                              //           duration: Duration(
+                                              //               milliseconds: 300),
+                                              //           content: Text(
+                                              //               "Already in cart")));
+                                              //   //ignore:avoid_print
+                                              //   print(
+                                              //       ".............memesIdList duplicate: ${memeCartProvider.getMemesIdList.toString()}");
+                                              // }
+                                              // else {
+                                              memeCartProvider.getMemesIdList!
+                                                  .add(memeId);
+                                              memeCartProvider
+                                                  .addItem(addCartItem);
+                                              context
+                                                  .read<CartCounterProvider>()
+                                                  .increment();
+                                              ScaffoldMessenger.of(context)
+                                                  .showSnackBar(SnackBar(
+                                                duration: const Duration(
+                                                    milliseconds: 800),
+                                                content:
+                                                    const Text("Added to Cart"),
+                                                action: SnackBarAction(
+                                                    label: "View Cart",
+                                                    textColor: Colors.white,
+                                                    onPressed: () {
+                                                      Navigator.push(
+                                                          context,
+                                                          MaterialPageRoute(
+                                                              builder: (context) =>
+                                                                  const CartPage()));
+                                                    }),
+                                              ));
+                                              //ignore:avoid_print
+                                              print(
+                                                  ".............memesIdList add: ${memeCartProvider.getMemesIdList.toString()}");
+                                            }
+                                      // }
+                                      ,
                                       style: ElevatedButton.styleFrom(
-                                          primary: Colors.black),
-                                      child: const Text(
+                                          primary: memeCartProvider
+                                                  .getMemesIdList!
+                                                  .contains(memeId)
+                                              ? Colors.black.withOpacity(0.3)
+                                              : Colors.black),
+                                      child: Text(
                                         "Get This Meme",
-                                        style: TextStyle(color: Colors.white),
+                                        style: TextStyle(
+                                            color: memeCartProvider
+                                                    .getMemesIdList!
+                                                    .contains(memeId)
+                                                ? Colors.white.withOpacity(0.5)
+                                                : Colors.white),
                                       )),
                                   PreviewDownload(imageUrl: memeImageUrl)
                                 ]),
