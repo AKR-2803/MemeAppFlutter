@@ -3,12 +3,12 @@
 ### Splash Screen
 <kbd><img src="https://user-images.githubusercontent.com/109909231/224924545-2479b895-9be3-4436-8401-10c25291e19a.png" width="250" height="550"></kbd>
 
-### Home Screen&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Adding Items&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Cart Screen
-<kbd><img src="https://user-images.githubusercontent.com/109909231/224924675-ddb5a35f-4b5a-4390-a4e2-316d9d92852e.png" width="250" height="550"></kbd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd><img src="https://user-images.githubusercontent.com/109909231/224924803-b9d3270b-e425-4efb-96dc-ec830d5db4f1.png" width="250" height="550"></kbd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd><img src="https://user-images.githubusercontent.com/109909231/224924817-24c40565-7207-4acf-940d-9eb90619ed0b.png" width="250" height="550"></kbd>
+### Home Screen&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Adding Items&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Cart Screen
+<kbd><img src="https://user-images.githubusercontent.com/109909231/224924675-ddb5a35f-4b5a-4390-a4e2-316d9d92852e.png" width="250" height="550"></kbd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd><img src="https://user-images.githubusercontent.com/109909231/224924803-b9d3270b-e425-4efb-96dc-ec830d5db4f1.png" width="250" height="550"></kbd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd><img src="https://user-images.githubusercontent.com/109909231/224924817-24c40565-7207-4acf-940d-9eb90619ed0b.png" width="250" height="550"></kbd>
 
 
-### Downloading Image&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Empty Cart
-<kbd><img src="https://user-images.githubusercontent.com/109909231/224925346-cb5bd3cd-c688-4053-a0c8-a56f549ee9ad.png" width="250" height="550"></kbd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd><img src="https://user-images.githubusercontent.com/109909231/224946487-ecf8b170-bec6-4b91-94ad-96ddbb500327.png" width="250" height="550"></kbd>
+### Downloading Image&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Empty Cart
+<kbd><img src="https://user-images.githubusercontent.com/109909231/224925346-cb5bd3cd-c688-4053-a0c8-a56f549ee9ad.png" width="250" height="550"></kbd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd><img src="https://user-images.githubusercontent.com/109909231/224946487-ecf8b170-bec6-4b91-94ad-96ddbb500327.png" width="250" height="550"></kbd>
 
 ### Recording: 
 
