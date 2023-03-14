@@ -1,11 +1,11 @@
-import 'package:fintechdashboardclone/providers/cart_counter_provider.dart';
-import 'package:fintechdashboardclone/providers/meme_cart_provider.dart';
-import 'package:fintechdashboardclone/screens/home_page.dart';
+import 'package:memeapp/providers/cart_counter_provider.dart';
+import 'package:memeapp/providers/meme_cart_provider.dart';
+import 'package:memeapp/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
             theme: ThemeData(
                 fontFamily: 'SpaceMono',
                 useMaterial3: true,
-                colorSchemeSeed: const Color.fromARGB(255, 101, 52, 236)),
-            home: HomePage()));
+                colorSchemeSeed: const Color(0xff323030)),
+            home: const SplashScreen()));
   }
 }

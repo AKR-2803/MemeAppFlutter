@@ -1,4 +1,4 @@
-import 'package:fintechdashboardclone/models/cart_card_model.dart';
+import 'package:memeapp/models/cart_card_model.dart';
 import 'package:flutter/cupertino.dart';
 
 class MemeCartProvider extends ChangeNotifier {
